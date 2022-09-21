@@ -18,7 +18,6 @@ GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
 Twitter: [@NatashaChirombe]
 LinkedIn: Natasha Chirombe
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

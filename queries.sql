@@ -1,7 +1,5 @@
 /*Queries that provide answers to the questions from all projects.*/
 
-/*Queries that provide answers to the questions from all projects.*/
-
 SELECT name from animals WHERE name LIKE '%mon';
 
 SELECT name,date_of_birth FROM animals WHERE date_of_birth BETWEEN '2016-01-01' AND '2019-12-31';

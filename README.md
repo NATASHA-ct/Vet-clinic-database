@@ -18,7 +18,6 @@ GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
 Twitter: [@NatashaChirombe]
 LinkedIn: Natasha Chirombe
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -28,7 +27,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 ## 📝 License
 

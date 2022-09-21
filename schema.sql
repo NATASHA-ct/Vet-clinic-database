@@ -17,7 +17,7 @@ DROP COLUMN species;
 
 -- create owner table.
 CREATE TABLE owners (
-    id INT NOT NULL GENERATED ALWAYS AS IDENTITY ,
+    id BIGSERIAL PRIMARY KEY ,
     full_name varchar(250),
     age INT NOT NULL,
     PRIMARY KEY(id)
@@ -25,7 +25,7 @@ CREATE TABLE owners (
 
 -- species table
 CREATE TABLE species (
-    id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    id BIGSERIAL PRIMARY KEY ,
     name varchar(250),
     PRIMARY KEY(id)
 );

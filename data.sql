@@ -34,16 +34,13 @@ UPDATE animals SET owner_id = 5 WHERE name = 'Angemon' OR name = 'Boarmon';
 /* PROJECT DAY 4 - ADD "JOIN TABLE" FOR VISITS */
 -- Inserting datas to vets:
 INSERT INTO vets(name, age, date_of_graduation) VALUES('William Tatcher', 45, '2000-04-23');
-INSERT INTO vets(name, age, date_of_graduation) VALUES('Maisy Smith', 26, '2019-01-17');
-INSERT INTO vets(name, age, date_of_graduation) VALUES('Stephanie Mendez', 64, '1981-05-04');
-INSERT INTO vets(name, age, date_of_graduation) VALUES('Jack Harkness', 38, '2008-06-08');
+('Maisy Smith', 26, '2019-01-17'), ('Stephanie Mendez', 64, '1981-05-04'), ('Jack Harkness', 38, '2008-06-08');
+
 -- Inserting datas to specialties
 
 -- William Tatcher is specialized in Pokemon
- INSERT INTO specializations(vets_id, species_id)VALUES(1,1);
- -- Stephanie Mendez is specialized in Digimon and Pokemon
- INSERT INTO specializations(vets_id, species_id)VALUES(3,2);
- INSERT INTO specializations(vets_id, species_id)VALUES(3,1);
+ INSERT INTO specializations(vets_id, species_id)VALUES(1,1),
+(3,2),(3,1);
 
  -- Jack Harkness is specialized in Digimon.
  INSERT INTO specializations(vets_id, species_id)VALUES(4,2);

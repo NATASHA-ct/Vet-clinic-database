@@ -93,13 +93,6 @@ SELECT owners.full_name, COUNT(animals.name) FROM owners LEFT JOIN animals ON ow
 /* PROJECT DAY 4 "JOIN Multiple TABLEs" FOR VISITS */
 
 -- Who was the last animal seen by William Tatcher?
-SELECT animals.name, visits.date_of_visit
-FROM animals 
-JOIN visits ON visits.animals_id = animals.id
-JOIN vets ON vets.id = visits.vets_id
-WHERE vets.name = 'William Tatcher'
-ORDER BY visits.date_of_visit DESC LIMIT 1;
-
 SELECT animals.name, visits.date_of_visit 
 FROM animals 
 JOIN visits ON visits.animals_id = animals.id 

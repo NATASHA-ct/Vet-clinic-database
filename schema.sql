@@ -58,10 +58,10 @@ CREATE TABLE specializations (
 );
 
 CREATE TABLE visits (
-    animals_id INT NOT NULL,
-    vets_id INT NOT NULL,
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    animal_id INT NOT NULL,
+    vet_id INT NOT NULL,
     date_of_visit DATE NOT NULL,
-    PRIMARY KEY(animals_id, vets_id, date_of_visit),
-    CONSTRAINT fk_visit_animals FOREIGN KEY(animals_id) REFERENCES animals(id),
-    CONSTRAINT fk_visit_vets FOREIGN KEY(vets_id) REFERENCES vets(id)
+    CONSTRAINT fk_animals FOREIGN KEY (animal_id) REFERENCES animals(id),
+    CONSTRAINT fk_vets FOREIGN KEY (vet_id) REFERENCES vets(id)
 );

@@ -10,6 +10,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 
+## Schema Diagram
+![drawSQL-export-2022-09-27_01_19](https://user-images.githubusercontent.com/106079814/192390663-83bc8855-845f-47a6-b93c-a1f3474c3833.png)
+
+
 ## Authors
 
 👤 NATASHA TATENDA CHIROMBE
